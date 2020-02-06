@@ -1,0 +1,102 @@
+.shop-items {
+  display: flex;
+  justify-content: center;
+  font-family: "IM Fell French Canon SC", serif;
+}
+
+.shop-item div {
+  height: 350px;
+  width: 275px;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.outfit {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.text {
+  font-family: "Great Vibes", serif;
+  font-size: x-large;
+  color: white;
+  font-weight: 300;
+}
+
+.bags {
+  width: 25px;
+  height: 25px;
+}
+
+.selection {
+  display: flex;
+  font-size: 65px;
+  justify-content: space-between;
+  font-family: "Mrs Saint Delafield", cursive;
+}
+
+.selection a {
+  color: pink;
+}
+
+.form-group {
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  color: pink;
+}
+
+.box-container {
+  font-family: "Sacramento", cursive;
+  color: palevioletred;
+}
+
+.edit-text {
+  font-family: "Great Vibes", serif;
+}
+.tops {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tops div {
+  min-height: 300px;
+  min-width: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.bottoms {
+  display: flex;
+  justify-content: space-between;
+}
+.bottoms div {
+  min-height: 300px;
+  min-width: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.dresses {
+  display: flex;
+  justify-content: space-between;
+}
+.dresses div {
+  min-height: 300px;
+  min-width: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+}
+
+.trademark {
+  font-family: "Times New Roman", Times, serif;
+}

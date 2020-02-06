@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      CLOSET 7
+    </title>
+    <meta
+      name="description"
+      content="description"
+      content="This is the description"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/018add28c9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="navbar">
+
+          <a href="index.html">HOME</a>
+          <a  href="store.html">STORE</a>
+          <a href="about.html">ABOUT</a>
+      <span class></span>
+      </nav>
+      <h1 class="text-center band-name band-name-large">C L O S E T <span class="ml-4">7</span></h1>
+    </header>
+    <section class="container content-section">
+      <h2 class="section-header">WOMEN'S</h2>
+      <div class="shop-items">
+      <div class="shop-item">
+          <span class="shop-item-title">T O P S</span>
+          <div class="text-left">
+          <a href="https://www.google.com">
+            <img width="400" src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQdVkTmi3z-qi2uIBSkcG0P2eI39TmBNFo0DBx1dA5jXFS7OIRIXl4qgrD5Q3dD00igMwnnEJTLVGvJfzFJfo9--5gLCGCBCa-Bi796HkA&usqp=CAY">
+          </a>
+          <div class="shop-item-details">
+            <span class="shop-item-price">$19.99</span
+            ><button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">Bottoms</span>
+        <div>
+          <img class="shop-item-image">
+            <a href="https://www.google.com"> 
+              <img width="400" src="https://cdn.shopify.com/s/files/1/0252/6609/4125/products/1220-PUleatherpantsBow-03_720x.jpg?v=1576842325Y"> 
+            </a>
+        <div class="shop-item-details">
+          <span class="shop-item-price">$45</span
+          ><button class="btn btn-primary shop-item-button" type="button">
+            ADD TO CART
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">CART</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items">
+        <div class="cart-row">
+          <div class="cart-item cart-column"></div>
+          <img class="cart-item-image" src="../Images/2pieceoutfits.jpg" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
