@@ -107,7 +107,7 @@ export default function Profile(props) {
         >
           Update
         </Link>
-        <Link className="btn btn-dark btn-block" to="/login">
+        <Link to="/login" className="btn btn-dark btn-block">
           Logout
         </Link>
       </div>

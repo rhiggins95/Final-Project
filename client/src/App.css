@@ -12,7 +12,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: whitesmoke;
+}
+
+.welcome {
+  font-family: "Mrs Saint Delafield", cursive;
+  color: aliceblue;
+  font-size: xx-large;
+}
+
+.list {
+  font-family: "Mrs Saint Delafield", serif;
+  font-size: 75px;
+  color: black;
+  font-weight: 100;
 }
 
 .outfit {
@@ -27,7 +40,6 @@
   color: white;
   font-weight: 300;
 }
-
 .bags {
   width: 25px;
   height: 25px;
@@ -44,20 +56,40 @@
   color: pink;
 }
 
+.container {
+  font-family: "Great Vibes", cursive;
+  color: palevioletred;
+}
+
 .form-group {
   font-family: "Great Vibes", cursive;
-  font-size: 50px;
+  font-size: 30px;
   color: pink;
 }
 
 .box-container {
-  font-family: "Sacramento", cursive;
+  font-family: "Great Vibes", cursive;
   color: palevioletred;
 }
 
 .edit-text {
-  font-family: "Great Vibes", serif;
+  font-family: "Sacramento", cursive;
+  font-size: 30px;
+  text-align: center;
+  color: hotpink;
 }
+
+.pay {
+  font-family: "Sacramento", cursive;
+  font-size: 30px;
+  color: hotpink;
+}
+
+.money {
+  font-family: "Great Vibes", cursive;
+  font-size: 20px;
+}
+
 .tops {
   display: flex;
   justify-content: space-between;

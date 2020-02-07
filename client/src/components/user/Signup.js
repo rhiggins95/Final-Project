@@ -52,10 +52,10 @@ export default function Signup(props) {
             onChange={e => setPassword2(e.target.value)}
           />
         </div>
-        <button to="/Profile" className="btn btn-primary btn-block">
+        <button to="/Profile" className=" btn btn-outline-secondary btn-block">
           Sign up
         </button>
-        <Link to="/Login" className="btn btn-danger btn-block">
+        <Link to="/Login" className="btn btn-outline-danger btn-block">
           Cancel
         </Link>
       </form>

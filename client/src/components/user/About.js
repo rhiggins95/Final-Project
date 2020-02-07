@@ -8,23 +8,35 @@ export default function About(props) {
     <section>
       <header class="main-header">
         <nav className="navbar bg-dark navbar-dark">
-          <Link className="text-light" to="/home">
-            Home
-          </Link>
+          <div className="welcome">
+            <Link className="text-light" to="/home">
+              Home
+            </Link>
+          </div>
+
           <div className="text-light"> C L O S E T S E V E N</div>
-          <Link to="/ShopList">
-            <Logo className="bags" />
-            CHECKOUT
-          </Link>
+
+          <div className="welcome">
+            <Link className="text-light" to="/login">
+              Logout
+            </Link>
+          </div>
+
+          <div className="welcome">
+            Checkout<span ml-500> </span>
+            <Link to="/ShopList">
+              <Logo className="bags" />
+            </Link>
+          </div>
         </nav>
       </header>
       <body>
         <div class="photo">
-          <img src={aboutphoto} width="50%" />
+          <img src={aboutphoto} width="300px" height="400px" />
         </div>
       </body>
       <footer>
-        <div className="text">
+        <div className="edit-text">
           <p>
             Closet Seven was created to show the designers sense of style. To
             share with you her take on what it means to be fashionable. She

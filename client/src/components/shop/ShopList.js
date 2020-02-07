@@ -10,8 +10,9 @@ export default function ShopList({ cartItems, setCartItems }) {
   return (
     <div>
       <div>
-        <h1>Shopping Cart</h1>
-        <br></br>
+        <div className="pay">
+          <h1>Shopping Cart</h1>
+        </div>
 
         <StripeButton />
 
@@ -32,9 +33,11 @@ export default function ShopList({ cartItems, setCartItems }) {
             <img src={cartItem.image} alt="item"></img>
             <br></br>
             <span>{cartItem.price}</span>
-            <button onClick={RemoveFromCart.bind(this, cartItem)}>
-              Remove from Cart
-            </button>
+            <div className="money">
+              <button onClick={RemoveFromCart.bind(this, cartItem)}>
+                Remove from Cart
+              </button>
+            </div>
           </div>
         ))}
       </div>

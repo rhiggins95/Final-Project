@@ -38,26 +38,38 @@ function Home() {
         <header className="main-header">
           <nav className="navbar bg-dark navbar-dark">
             {user ? (
-              <Link className="text-light" to={`/Profile/${user._id}`}>
-                Welcome
-              </Link>
+              <div className="welcome">
+                <Link className="text-light" to={`/Profile/${user._id}`}>
+                  Welcome
+                </Link>
+              </div>
             ) : (
               <>
-                <Link className="text-light" to="/login">
-                  Login
-                </Link>
-                <Link className="text-light" to="/Signup">
-                  Sign Up
-                </Link>
+                <div className="welcome">
+                  <Link className="text-light" to="/login">
+                    Login
+                  </Link>
+                </div>
+
+                <div className="welcome">
+                  <Link className="text-light" to="/Signup">
+                    Sign Up
+                  </Link>
+                </div>
               </>
             )}
-            <Link className="text-light" to="/About">
-              About
-            </Link>
 
-            <Link className="text-light" to="/login">
-              Logout
-            </Link>
+            <div className="welcome">
+              <Link className="text-light" to="/About">
+                About
+              </Link>
+            </div>
+
+            <div className="welcome">
+              <Link className="text-light" to="/login">
+                Logout
+              </Link>
+            </div>
 
             <div>
               <input
@@ -66,10 +78,7 @@ function Home() {
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button
-                class="btn btn-outline-success my-2 my-sm-0"
-                type="submit"
-              >
+              <button class="btn btn-outline-light my-sm-0" type="submit">
                 Search
               </button>
             </div>

@@ -24,22 +24,31 @@ export default function ShopNew({ cartItems, setCartItems }) {
       <section>
         <header class="main-header">
           <nav className="navbar bg-dark navbar-dark">
-            <Link className="text-light" to="/home">
-              Home
-            </Link>
+            <div className="welcome">
+              <Link className="text-light" to="/home">
+                Home
+              </Link>
+            </div>
             <div className="text-light">C L O S E T S E V E N</div>
-            <Link className="text-light" to="/login">
-              Logout
-            </Link>
-            <Link to="/ShopList">
-              <Logo className="bags" />
-              CHECKOUT
-            </Link>
+
+            <div className="welcome">
+              <Link className="text-light" to="/login">
+                Logout
+              </Link>
+            </div>
+            <div className="welcome">
+              Checkout<span ml-500> </span>
+              <Link to="/ShopList">
+                <Logo className="bags" />
+              </Link>
+            </div>
           </nav>
         </header>
         <body>
           <section class="container content-section">
-            <header>TOPS</header>
+            <div className="list">
+              <header>Tops</header>
+            </div>
             <div className="tops">
               <div
                 className="text-left outfit"
@@ -57,7 +66,7 @@ export default function ShopNew({ cartItems, setCartItems }) {
                     price: "$19.99"
                   })}
                 >
-                  ADD TO CART
+                  Add<br></br> To<br></br> Cart
                 </button>
               </div>
               <div
@@ -76,7 +85,7 @@ export default function ShopNew({ cartItems, setCartItems }) {
                     price: "$19.99"
                   })}
                 >
-                  ADD TO CART
+                  Add<br></br> To<br></br> Cart
                 </button>
               </div>
 
@@ -96,7 +105,7 @@ export default function ShopNew({ cartItems, setCartItems }) {
                     price: "$19.99"
                   })}
                 >
-                  ADD TO CART
+                  Add<br></br> To<br></br> Cart
                 </button>
               </div>
 
@@ -116,12 +125,13 @@ export default function ShopNew({ cartItems, setCartItems }) {
                     price: "$19.99"
                   })}
                 >
-                  ADD TO CART
+                  Add<br></br> To<br></br> Cart
                 </button>
               </div>
             </div>
-
-            <header>Bottoms</header>
+            <div className="list">
+              <header>Bottoms</header>
+            </div>
             <div class="bottoms">
               <div
                 className="text-left outfit"
@@ -139,7 +149,7 @@ export default function ShopNew({ cartItems, setCartItems }) {
                     price: "$19.99"
                   })}
                 >
-                  ADD TO CART
+                  Add<br></br> To<br></br> Cart
                 </button>
               </div>
 
@@ -159,7 +169,7 @@ export default function ShopNew({ cartItems, setCartItems }) {
                     price: "$19.99"
                   })}
                 >
-                  ADD TO CART
+                  Add<br></br> To<br></br> Cart
                 </button>
               </div>
 
@@ -180,7 +190,7 @@ export default function ShopNew({ cartItems, setCartItems }) {
                     price: "$19.99"
                   })}
                 >
-                  ADD TO CART
+                  Add<br></br> To<br></br> Cart
                 </button>
               </div>
 
@@ -200,12 +210,13 @@ export default function ShopNew({ cartItems, setCartItems }) {
                     price: "$19.99"
                   })}
                 >
-                  ADD TO CART
+                  Add<br></br> To<br></br> Cart
                 </button>
               </div>
             </div>
-
-            <header> Dresses </header>
+            <div className="list">
+              <header> Dresses </header>
+            </div>
             <div class="dresses">
               <div
                 className="text-left outfit"
@@ -223,7 +234,7 @@ export default function ShopNew({ cartItems, setCartItems }) {
                     price: "$19.99"
                   })}
                 >
-                  ADD TO CART
+                  Add<br></br> To<br></br> Cart
                 </button>
               </div>
 
@@ -243,7 +254,7 @@ export default function ShopNew({ cartItems, setCartItems }) {
                     price: "$19.99"
                   })}
                 >
-                  ADD TO CART
+                  Add<br></br> To<br></br> Cart
                 </button>
               </div>
 
@@ -263,7 +274,7 @@ export default function ShopNew({ cartItems, setCartItems }) {
                     price: "$19.99"
                   })}
                 >
-                  ADD TO CART
+                  Add<br></br> To<br></br> Cart
                 </button>
               </div>
 
@@ -283,7 +294,7 @@ export default function ShopNew({ cartItems, setCartItems }) {
                     price: "$19.99"
                   })}
                 >
-                  ADD TO CART
+                  Add<br></br> To<br></br> Cart
                 </button>
               </div>
             </div>
